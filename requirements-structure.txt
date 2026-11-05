@@ -1,0 +1,4 @@
+# Optional module dependencies; existing pdvn environment supplies torch,
+# pandas, numpy, RDKit and rdchiral. Vendoring avoids changing that environment.
+igraph==0.11.9
+leidenalg==0.10.2
